@@ -1,0 +1,116 @@
+.kros{
+position: relative;
+display: inline-block;
+border: 3px solid #199;
+min-height: 100%;
+max-width: 100%;
+}
+
+.kros1{
+position: relative;
+display: inline-block;
+border: 3px solid #199;
+margin-left: 40px;
+min-height: 100%;
+max-width: 100%;
+}
+
+.kros2{
+position: relative;
+display: inline-block;
+border: 3px solid #199;
+margin-left: 40px;
+min-height: 100%;
+max-width: 100%;
+}
+
+.pic4{
+	max-width: 100%;
+}
+
+.blocks{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	color:#1bead9;
+	max-width: 100%;
+}
+
+.img{
+	max-width: 100%;
+}
+
+
+
+/* container */
+
+.container{
+	width: 100%;
+	max-width: 1300px;
+	padding:0 5px;
+	margin: 0 auto;
+}
+
+@media (max-width: 1300px){
+	.container{
+		max-width: 970;
+	}
+}
+
+@media (max-width: 969px){
+	.container{
+		max-width: 767px;
+	}
+}
+
+@media (max-width: 767px){
+	.container{
+		max-width: none;
+	}
+}
+
+
+
+p{
+margin:10px;
+}
+
+h1{
+text-align: center;
+color: white;
+margin-top: 90px;
+}
+
+h2{
+margin: 7px;
+}
+
+h3{
+font-size: 31px;
+margin: 7px;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	widht:100%;
+	height: 100vh;
+	background:url(nogi.png) center no-repeat;
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* title */
+.title{
+	font-size: 50px;
+/* 	font-size: (27px + 23 * (100vw / 1300));*/ 
+	color: white;
+	text-align: center;
+	margin-bottom: 30px;
+	max-width: 100%;
+}
+
+
+
+
